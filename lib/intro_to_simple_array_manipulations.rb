@@ -15,7 +15,7 @@ def pop_with_args(array)
 end
 
 def using_shift(array) #need fix
-  array.shift(1)
+  array.shift
 end
 
 def using_concat(array, other_array) #need fix
@@ -26,7 +26,7 @@ def shift_with_args(array)
   array.shift(2)
 end
 
-def using_insert(array, element) #need fix
+def using_insert(array, element)
   array.insert(4, element)
 end
 
