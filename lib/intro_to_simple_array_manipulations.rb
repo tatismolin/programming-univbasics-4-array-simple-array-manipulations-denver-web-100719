@@ -27,7 +27,7 @@ def shift_with_args(array)
 end
 
 def using_insert(array, element) #need fix
-  array.insert(element)
+  array.insert(4, element)
 end
 
 def using_uniq(array) #need fix
