@@ -27,7 +27,7 @@ def shift_with_args(array)
 end
 
 def using_insert(array, element) #need fix
-  array.insert(4)
+  array.insert(element)
 end
 
 def using_uniq(array) #need fix
@@ -43,6 +43,6 @@ def using_delete(array, string)
 end
 
 
-def using_delete_at(array, integer) #need fix
+def using_delete_at(array, integer)
   array.delete_at(integer)
 end
